@@ -1,6 +1,6 @@
 # Typescript-Katas
 
-> This contains a number of typescript scripts that were created to solev some simple Katas
+> This contains a number of typescript scripts that were created to solve some simple Katas
 
 ## alphabet_number_kata
 
@@ -47,7 +47,7 @@
 > Takes an 10 digit number and outputs it formatted as a US telephone number.
 > For example 1234567890 would return (123) 456-7890
 
-## Example script using type script.
+## Example of using typescript.
 
 > Make sure there is tsconfig.json
 
