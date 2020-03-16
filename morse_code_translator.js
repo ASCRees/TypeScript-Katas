@@ -93,4 +93,4 @@ console.log(morsecode);
 console.log("");
 console.log(english);
 console.log("");
-//# sourceMappingURL=morse_Code_translator.js.map
+//# sourceMappingURL=morse_code_translator.js.map
