@@ -6,4 +6,8 @@ let createPhoneNumber = a => {
 	return result;
 };
 
-console.log(createPhoneNumber(1234567890));
+console.log("");
+console.log("Starting with " + 1234567890);
+console.log("");
+console.log("Telephone Number is " + createPhoneNumber(1234567890));
+console.log("");
