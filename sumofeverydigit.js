@@ -11,7 +11,6 @@ class SumAllDigits {
         }
         return partsum;
     }
-    ;
     sumEveryDigit(numbertosum) {
         let arrofNums = [...numbertosum.toString()].map(Number);
         let finalSums = [];
@@ -21,9 +20,8 @@ class SumAllDigits {
         return finalSums;
     }
 }
-;
 let sumAllDigits = new SumAllDigits();
-let startingVal = 123456789;
+let startingVal = 23789;
 console.log("Starting Value is " + startingVal.toString());
 console.log(sumAllDigits.sumEveryDigit(startingVal));
 //# sourceMappingURL=sumofeverydigit.js.map

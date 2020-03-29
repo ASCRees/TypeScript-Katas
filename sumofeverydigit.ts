@@ -4,34 +4,27 @@
 // To give 3,4,5
 
 class SumAllDigits {
+	private sumAllInArrayForOneElement(indexofval: number, arrofNums: Array<number>): Array<number> {
+		let currElement: number = arrofNums[indexofval];
+		let partsum: Array<number> = [];
+		for (let i: number = indexofval + 1; i < arrofNums.length; i++) {
+			partsum.push(currElement + arrofNums[i]);
+		}
+		return partsum;
+	}
 
-    private sumAllInArrayForOneElement (indexofval:number, arrofNums:Array<number>):Array<number>
-        {
-            let currElement:number = arrofNums[indexofval];
-            let partsum : Array<number>=[];
-            for(let i:number =indexofval+1; i < arrofNums.length; i++)
-            {
-              partsum.push(currElement+arrofNums[i]);                    
-            }
-            return partsum;
-        };
+	public sumEveryDigit(numbertosum: number): Array<number> {
+		let arrofNums: Array<number> = [...numbertosum.toString()].map(Number);
+		let finalSums: Array<number> = [];
+		for (let i: number = 0; i < arrofNums.length; i++) {
+			Array.prototype.push.apply(finalSums, this.sumAllInArrayForOneElement(i, arrofNums));
+		}
 
-    public sumEveryDigit(numbertosum:number):Array<number>{
-        let arrofNums:Array<number>=[...numbertosum.toString()].map(Number);
-        let finalSums:Array<number>=[];
-        for(let i:number =0; i < arrofNums.length; i++)
-        {
-          Array.prototype.push.apply(finalSums, this.sumAllInArrayForOneElement (i, arrofNums));
-        } 
-        
-         return finalSums;
-    }
+		return finalSums;
+	}
+}
 
-};
-
-let sumAllDigits:SumAllDigits = new SumAllDigits();
-let startingVal:number =123456789;
-console.log("Starting Value is "+startingVal.toString());
+let sumAllDigits: SumAllDigits = new SumAllDigits();
+let startingVal: number = 23789;
+console.log("Starting Value is " + startingVal.toString());
 console.log(sumAllDigits.sumEveryDigit(startingVal));
-
- 
