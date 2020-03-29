@@ -47,6 +47,10 @@
 > Takes an 10 digit number and outputs it formatted as a US telephone number.
 > For example 1234567890 would return (123) 456-7890
 
+## christmas_tree
+
+> Generates a christmas tree using \* based upon a given number of rows
+
 ## Example script using type script.
 
 > Make sure there is tsconfig.json
