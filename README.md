@@ -1,6 +1,6 @@
 # Typescript-Katas
 
-> This contains a number of typescript scripts that were created to solev some simple Katas
+> This contains a number of typescript scripts that were created to solve some simple Katas
 
 ## alphabet_number_kata
 
@@ -12,6 +12,10 @@
 > will return
 >
 >      1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+
+## christmas_tree
+
+> Generates a christmas tree using \* based upon a given number of rows
 
 ## curried_function
 
@@ -47,11 +51,7 @@
 > Takes an 10 digit number and outputs it formatted as a US telephone number.
 > For example 1234567890 would return (123) 456-7890
 
-## christmas_tree
-
-> Generates a christmas tree using \* based upon a given number of rows
-
-## Example script using type script.
+## Example of using typescript.
 
 > Make sure there is tsconfig.json
 
