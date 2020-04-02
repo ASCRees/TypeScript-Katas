@@ -4,7 +4,8 @@
 
 ## alphabet_number_kata
 
-> This function takes a string and return the position in the alphabet for each letter. It ignores anything that is not a letter from a to z.
+> This function takes a string and returns the position in the alphabet for each letter. It ignores anything that is not a letter.
+>
 > Calling the following :-
 >
 >      numberise("abcd efg %hi^ jk* lmn (opq) rstuv wxyz.")
@@ -17,27 +18,27 @@
 
 ## christmas_tree
 
-> Generates a christmas tree using \* based upon a given number of rows
+> Generates a christmas tree using \* based upon a given number of rows.
 
 ![image](https://user-images.githubusercontent.com/28151071/77850704-28ccd100-71cc-11ea-83b3-ab764c7071b8.png)
 
 ## curried_function
 
-> This shows an example of a type of function that accepts multiple parameters one parameter at a time and return a function after each parameter to accept the next parameter.
+> This shows an example of a type of function that accepts multiple parameters, one parameter at a time and returns a function after each parameter to accept the next parameter.
 
 ![image](https://user-images.githubusercontent.com/28151071/77850720-4306af00-71cc-11ea-9f28-756b1f27df6a.png)
 
 ## morse_code_translator
 
-> This takes a string of text and converts it to morse code or vice versa
-> Calling the function morse.convertToMorseCode will convert to morse code
-> Calling morse.convertFromMorseCode will convert from morse code
+> This takes a string of text and converts it to morse code or vice versa.
+> Calling the function morse.convertToMorseCode will convert a string to morse code.
+> Calling morse.convertFromMorseCode will convert from morse code to the original string.
 
 ![image](https://user-images.githubusercontent.com/28151071/77850743-5f0a5080-71cc-11ea-81ee-32da24ea192a.png)
 
 ## pig_latin
 
-> Returns a given in pig latin.
+> Returns a given string in pig latin.
 > Take the first letter of each word of the string and put it on the end then add "ay"
 > So "Hello" would become "elloHay"
 
@@ -47,13 +48,13 @@
 
 > This function takes a number and sums the digits then recursively reduces it to a single digit.
 > For example start with 132189 and then sums the digits to get 24.
-> As 24 is not a single digit these digits are summed to get 6
+> As 24 is not a single digit these digits are summed to get 6.
 
 ![image](https://user-images.githubusercontent.com/28151071/77850775-911bb280-71cc-11ea-9338-2218bb0cf976.png)
 
 ## sumofeverydigit
 
-> Take a number and then sums every digit in the number
+> Take a number and then sums every digit in the number.
 > So 123 would sum
 > 1+2, 1+3, 2+3
 > To give 3,4,5
