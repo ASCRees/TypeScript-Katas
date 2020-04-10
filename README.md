@@ -67,6 +67,21 @@
 
 ![image](https://user-images.githubusercontent.com/28151071/77850914-975e5e80-71cd-11ea-8660-b42d06e4b6f6.png)
 
+## dominates_array
+
+> An array "arr" consisting of n integers is given. The dominator of arr is the value that occurs in more than half of the elements of arr.
+> If array does not have a dominator. All values in arr will be >=0.
+
+## compare_strings
+
+> Create a function called that accepts 2 string arguments and returns an integer of the count of occurrences the 2nd argument is found in the first one.
+
+> If no occurrences can be found, a count of 0 should be returned. The first argument can be an empty string. The second string argument must be of at least length 1.
+
+## hash_table_of_letters
+
+> Takes a string and produces a hash table indicating the number of occurences of each letter in the string.
+
 ## Example of using typescript.
 
 > Make sure there is tsconfig.json

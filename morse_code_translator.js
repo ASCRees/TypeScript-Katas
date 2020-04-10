@@ -55,11 +55,11 @@ class ConvertToMorseCode {
     }
     filterByChar(letter, key) {
         if (key === "charval") {
-            let filteredVal1 = this.MorseCodeTable.filter(term => term.charval === letter);
+            let filteredVal1 = this.MorseCodeTable.filter((term) => term.charval === letter);
             return filteredVal1.length > 0 ? filteredVal1[0].morseval : "";
         }
         else {
-            let filteredVal2 = this.MorseCodeTable.filter(term => term.morseval === letter);
+            let filteredVal2 = this.MorseCodeTable.filter((term) => term.morseval === letter);
             return filteredVal2.length > 0 ? filteredVal2[0].charval : "";
         }
     }
@@ -67,7 +67,7 @@ class ConvertToMorseCode {
         let encoded = conversionString
             .toUpperCase()
             .split("")
-            .map(a => {
+            .map((a) => {
             return this.filterByChar(a, "charval");
         });
         return encoded.join(" ");
@@ -76,7 +76,7 @@ class ConvertToMorseCode {
         let decoded = conversionString
             .toUpperCase()
             .split(" ")
-            .map(a => {
+            .map((a) => {
             return this.filterByChar(a, "morseval");
         });
         return decoded.join("");
