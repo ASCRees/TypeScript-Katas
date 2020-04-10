@@ -1,3 +1,5 @@
+// Takes a string and produces a hash table indicating the number of occurences of each letter in the string.
+
 function hashTable(startingString: string): number[] {
 	let countArray: number[] = [];
 
