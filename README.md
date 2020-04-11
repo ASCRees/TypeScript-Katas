@@ -22,11 +22,26 @@
 
 ![image](https://user-images.githubusercontent.com/28151071/77850704-28ccd100-71cc-11ea-83b3-ab764c7071b8.png)
 
+## compare_strings
+
+> Create a function called that accepts 2 string arguments and returns an integer of the count of occurrences the 2nd argument is found in the first one.
+
+> If no occurrences can be found, a count of 0 should be returned. The first argument can be an empty string. The second string argument must be of at least length 1.
+
 ## curried_function
 
 > This shows an example of a type of function that accepts multiple parameters, one parameter at a time and returns a function after each parameter to accept the next parameter.
 
 ![image](https://user-images.githubusercontent.com/28151071/77850720-4306af00-71cc-11ea-9f28-756b1f27df6a.png)
+
+## dominates_array
+
+> An array "arr" consisting of n integers is given. The dominator of arr is the value that occurs in more than half of the elements of arr.
+> If array does not have a dominator. All values in arr will be >=0.
+
+## hash_table_of_letters
+
+> Takes a string and produces a hash table indicating the number of occurences of each letter in the string.
 
 ## morse_code_translator
 
@@ -68,20 +83,6 @@
 
 ![image](https://user-images.githubusercontent.com/28151071/77850914-975e5e80-71cd-11ea-8660-b42d06e4b6f6.png)
 
-## dominates_array
-
-> An array "arr" consisting of n integers is given. The dominator of arr is the value that occurs in more than half of the elements of arr.
-> If array does not have a dominator. All values in arr will be >=0.
-
-## compare_strings
-
-> Create a function called that accepts 2 string arguments and returns an integer of the count of occurrences the 2nd argument is found in the first one.
-
-> If no occurrences can be found, a count of 0 should be returned. The first argument can be an empty string. The second string argument must be of at least length 1.
-
-## hash_table_of_letters
-
-> Takes a string and produces a hash table indicating the number of occurences of each letter in the string.
 
 ## Example of using typescript.
 
