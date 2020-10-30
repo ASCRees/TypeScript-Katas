@@ -39,5 +39,6 @@ function numberise(sentence:string)
 let numberisearrow=(sentence:string):string=>{return sentence.toLowerCase().match(/[a-z]/g).map((schar)=> (schar.charCodeAt(0))-96).join(" ");};
 
 
-console.log(numberise("abcd efg %hi^ jk* lmn (opq) rstuv wxyz."));
-console.log(numberisearrow("abcd efg %hi^ jk* lmn (opq) rstuv wxyz."));
+
+console.log(numberise("abc1d efg %hi^ jk* lmn (opq) rstuv wxyZ."));
+console.log(numberisearrow("ab3cd efg %hi^ jk* lmn (opq) rstuv Wxyz."));
