@@ -6,8 +6,7 @@ function hashTable(startingString: string): number[] {
 	[...startingString].forEach((val, index) => {
 		countArray[val.toUpperCase()] != undefined ? countArray[val.toUpperCase()]++ : (countArray[val.toUpperCase()] = 1);
 	});
-
 	return countArray;
 }
 
-console.log(hashTable("Hello there world"));
+console.log(hashTable("Hello there world dude"));

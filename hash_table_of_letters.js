@@ -6,5 +6,5 @@ function hashTable(startingString) {
     });
     return countArray;
 }
-console.log(hashTable("Hello there world"));
+console.log(hashTable("Hello there world dude"));
 //# sourceMappingURL=hash_table_of_letters.js.map
